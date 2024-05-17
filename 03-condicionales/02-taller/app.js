@@ -1,3 +1,84 @@
+// TALLER ORIGINAL
+
+//1
+/* 
+let altura = prompt('Ingrese su altura')
+
+if(altura <= 150  ) {
+   console.log('persona baja') 
+}
+else if ( altura >= 151 && altura <= 170  ) {
+    console.log('Persona de altura media')
+}
+
+else if ( altura > 171  ) {
+    console.log('Persona de alta')
+}
+else {
+    console.log('persona alta');
+}
+ */
+
+
+// 2
+
+/* let notaMath = parseFloat(prompt('ingresa la nota de matemática'))
+let notaEsp = parseFloat(prompt('ingresa la nota de Español'))
+let notaSoc = parseFloat(prompt('ingresa la nota de Sociales'))
+
+parseFloat
+
+promedioNotas = ((notaMath) +(notaEsp) +(notaSoc)) / 3 ;
+
+console.log(promedioNotas);
+
+ 
+
+
+if( promedioNotas === 10 ){
+    console.log('EXCELENTE')
+}
+
+else if(promedioNotas >= 7 && promedioNotas > 10 ){
+    console.log('Bueno')
+}
+
+else if (promedioNotas < 7  ) {
+    console.log('Insufuciente')
+} 
+
+else{
+    console.log('uhhh, perdiste!')
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* let nombreUsuario = prompt('¿Cual es tu nombre?').toLowerCase();
 let edadUsuario = prompt('¿cual es tu edad?');
  */
@@ -123,7 +204,7 @@ else {
 
 
 //7 
-let numeroUno = prompt('ingresa primer numero');
+/* let numeroUno = prompt('ingresa primer numero');
 let numeroDos = prompt('ingresa segundo numero ');
 let numeroTres = prompt('ingresa tercer numero');
 
@@ -141,7 +222,7 @@ console.log ("¡Gana el numeroUno uno!" + numeroUno ) ;
 } else {
 console.log ( "¡el jugador dos gana!" +  ) 
  }
-
+ */
 
 
 
