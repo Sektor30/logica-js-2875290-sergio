@@ -52,6 +52,7 @@ else{
 } */
 
 
+<<<<<<< HEAD
 //3
 /* let edad = prompt('cual es tu edad');
 let estatura = prompt('Cual es tu estatura?') ;
@@ -116,6 +117,8 @@ console.log("Su precio total con descuento " + totalConDescuento);
 
 
 
+=======
+>>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
 
 
 
@@ -267,8 +270,13 @@ else {
 
 
 
+<<<<<<< HEAD
 /* //7 
 let numeroUno = prompt('ingresa primer numero');
+=======
+//7 
+/* let numeroUno = prompt('ingresa primer numero');
+>>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
 let numeroDos = prompt('ingresa segundo numero ');
 let numeroTres = prompt('ingresa tercer numero');
 
@@ -285,10 +293,15 @@ console.log ("Empate") ; document.write('Empate');
 console.log ("¡Gana el numeroUno uno!" + numeroUno ) ; 
 } else {
 console.log ( "¡el jugador dos gana!" +  ) 
+<<<<<<< HEAD
  } */
 
  
 
+=======
+ }
+ */
+>>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
 
 
 
