@@ -52,7 +52,6 @@ else{
 } */
 
 
-<<<<<<< HEAD
 //3
 /* let edad = prompt('cual es tu edad');
 let estatura = prompt('Cual es tu estatura?') ;
@@ -100,6 +99,44 @@ console.log("Su precio total con descuento " + totalConDescuento);
 //5
 
 
+// Datos de las frutas y sus valores
+const frutas = {
+    banana: 300,
+    manzana: 800,
+    pera: 900,
+    uva: 1200,
+    mora: 1500,
+    naranja: 800
+  };
+  
+  alert(`recuerda los precios de 
+  Banana: $300, 
+  Manzana: $800,
+  Pera: $900,
+  Uva: $1200,
+  Mora: $1500, 
+  Naranja: $800`)
+
+  // Solicitar al usuario la fruta y la cantidad
+  const frutaSeleccionada = prompt("Ingrese el nombre de la fruta (banana, manzana, pera, uva, mora, naranja):").toLowerCase();
+  const cantidadSeleccionada = parseInt(prompt("Ingrese la cantidad que desea comprar:"), 10);
+
+  /* En resumen, en tu código parseInt(prompt("Ingrese la cantidad que desea comprar:"), 10), 
+  el 10 asegura que la entrada del usuario se interpretará correctamente como un número decimal. */
+  
+  // Validar la cantidad
+  if (!isNaN(cantidadSeleccionada) && cantidadSeleccionada > 0) {
+    if (frutaSeleccionada in frutas) {
+      const valorPorUnidad = frutas[frutaSeleccionada];
+      const valorTotal = valorPorUnidad * cantidadSeleccionada;
+      alert(`Nombre de la fruta: ${frutaSeleccionada}\nValor por unidad: ${valorPorUnidad}\nValor del total de los productos comprados: ${valorTotal}`);
+    } else {
+      alert("La fruta seleccionada no está en la lista.");
+    }
+  } else {
+    alert("La cantidad ingresada no es válida.");
+  }
+  
 
 
 
@@ -117,8 +154,35 @@ console.log("Su precio total con descuento " + totalConDescuento);
 
 
 
-=======
->>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,17 +330,12 @@ else {
  */
 
 
-
-
-
-
-<<<<<<< HEAD
 /* //7 
 let numeroUno = prompt('ingresa primer numero');
 =======
 //7 
 /* let numeroUno = prompt('ingresa primer numero');
->>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
+
 let numeroDos = prompt('ingresa segundo numero ');
 let numeroTres = prompt('ingresa tercer numero');
 
@@ -296,13 +355,9 @@ console.log ( "¡el jugador dos gana!" +  )
 <<<<<<< HEAD
  } */
 
+
+
  
-
-=======
- }
- */
->>>>>>> bc1872da95e1c44e1d88eba5cca16ddcf4f82cde
-
 
 
 
