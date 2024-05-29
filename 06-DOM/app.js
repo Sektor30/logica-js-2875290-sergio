@@ -11,3 +11,4 @@ miBtn.addEventListener('click', function (){
     pantalla.innerText = "EJECUTANDO SCRIPT ☠️";
         
 })
+
