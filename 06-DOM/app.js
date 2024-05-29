@@ -12,3 +12,26 @@ miBtn.addEventListener('click', function (){
         
 })
 
+/* const numero = document.getElementById('valor');
+const uno = document.getElementById('uno');
+const tres = document.getElementById('tres');
+
+let i = 0;
+
+function incrementar() {
+    if (i < 20) {
+        i++;
+        numero.innerText = i;
+    }
+}
+function disminuir() {
+    if (i > 0) {
+        i--;
+        numero.innerText = i;
+    }
+}
+
+uno.addEventListener('click', incrementar);
+tres.addEventListener('click', disminuir);
+
+*/
