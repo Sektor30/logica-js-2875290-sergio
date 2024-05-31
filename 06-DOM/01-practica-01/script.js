@@ -66,3 +66,34 @@ function mover(){
 }
 
 btnMover.addEventListener('click', mover)
+
+
+// CAMBIAR IMAGEN
+
+const pantallaImg = document.querySelector('#miImagen');
+const btnCambiar = document.querySelector('#btnCambiar');
+
+
+let esatado = 0;
+
+ /* function cambiarImagen(){
+    pantallaImg.setAttribute('src', 'imagen2.jpg')
+
+} */
+ 
+function cambiarImagen(){
+
+    if( e===0) {
+        pantallaImg.setAttribute('src', 'imagen2.jpg')
+        e=1;
+    }else {
+        pantallaImg.setAttribute('src', 'imagen.png')
+        e=0;
+    }
+
+
+ }
+
+
+btnCambiar.addEventListener('click', cambiarImagen)
+
