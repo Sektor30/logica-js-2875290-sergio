@@ -16,6 +16,7 @@ console.log(cajaColor)
 console.log(botonesColores)
 
 function pintarCaja(e){
+    console.log(e);
     console.log(e.target.getAttribute('data-color'))
     let newColor = e.target.getAttribute('data-color');
     cajaColor.style.backgroundColor = newColor ;
@@ -26,3 +27,72 @@ botonesColores[0].addEventListener('click',pintarCaja);
 botonesColores[1].addEventListener('click',pintarCaja);
 botonesColores[2].addEventListener('click',pintarCaja);
 botonesColores[3].addEventListener('click',pintarCaja);
+
+//MOVER PELOTA
+
+//1 VARIABLES
+
+const pelota = document.querySelector("#circulo");
+const btnMover = document.querySelector('#btnMover')
+
+
+console.log(pelota);
+console.log(btnMover);
+
+// 2  funciones 
+/* function mover(){
+    pelota.style.marginLeft ='400px';
+    pelota.style.backgroundColor ='green';
+    pelota.style.transitionDuration ='.5s';
+    
+} */
+
+let e = 0;
+
+function mover(){
+
+    if( e===0) {
+        pelota.style.marginLeft ='400px';
+        pelota.style.backgroundColor ='yellow';
+        pelota.style.transitionDuration ='.5s';
+        e=1;
+    }else {
+        pelota.style.marginLeft ='0px';
+        pelota.style.backgroundColor ='gray';
+        pelota.style.transitionDuration ='.5s';
+        e=0;
+    }
+
+}
+
+btnMover.addEventListener('click', mover)
+
+
+// CAMBIAR IMAGEN
+
+const pantallaImg = document.querySelector('#miImagen');
+const btnCambiar = document.querySelector('#btnCambiar');
+
+let estado = 0;
+
+ /* function cambiarImagen(){
+    pantallaImg.setAttribute('src', 'imagen2.jpg')
+
+} */
+ 
+function cambiarImagen(){
+
+    if( estado===0) {
+        pantallaImg.setAttribute('src', 'imagen2.jpg')
+        estado=1;
+    }else {
+        pantallaImg.setAttribute('src', 'imagen.png')
+        estado=0;
+    }
+
+
+ }
+
+
+btnCambiar.addEventListener('click', cambiarImagen)
+
