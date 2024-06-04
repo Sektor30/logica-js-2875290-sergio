@@ -7,10 +7,10 @@ function cambiarValue (){
     miInput.value = 'lanzamiento exitoso! 😺'
 }
 
-miInput.addEventListener('click', cambiarValue)
+miInput.addEventListener('click', cambiarValue);
 
-const cajaColor = document.getElementById('caja');
-const botonesColores = document.querySelectorAll('.btnColores');
+const cajaColor = document.getElementById("caja");
+const botonesColores = document.querySelectorAll(".btnColores");
 
 console.log(cajaColor)
 console.log(botonesColores)
@@ -19,7 +19,7 @@ function pintarCaja(e){
     console.log(e);
     console.log(e.target.getAttribute('data-color'))
     let newColor = e.target.getAttribute('data-color');
-    cajaColor.style.backgroundColor = newColor;
+    cajaColor.style.backgroundColor = newColor ;
 }
 
 
@@ -74,8 +74,12 @@ btnMover.addEventListener('click', mover)
 const pantallaImg = document.querySelector('#miImagen');
 const btnCambiar = document.querySelector('#btnCambiar');
 
+<<<<<<< HEAD
 
 let esatado = 0;
+=======
+let estado = 0;
+>>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d
 
  /* function cambiarImagen(){
     pantallaImg.setAttribute('src', 'imagen2.jpg')
@@ -84,16 +88,30 @@ let esatado = 0;
  
 function cambiarImagen(){
 
+<<<<<<< HEAD
     if( e===0) {
         pantallaImg.setAttribute('src', 'imagen2.jpg')
         e=1;
     }else {
         pantallaImg.setAttribute('src', 'imagen.png')
         e=0;
+=======
+    if( estado===0) {
+        pantallaImg.setAttribute('src', 'imagen2.jpg')
+        estado=1;
+    }else {
+        pantallaImg.setAttribute('src', 'imagen.png')
+        estado=0;
+>>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d
     }
 
 
  }
 
 
+<<<<<<< HEAD
 btnCambiar.addEventListener('click', cambiarImagen)
+=======
+btnCambiar.addEventListener('click', cambiarImagen)
+
+>>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d
