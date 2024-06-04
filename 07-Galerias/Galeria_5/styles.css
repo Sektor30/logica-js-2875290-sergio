@@ -1,0 +1,50 @@
+*{
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+
+body{
+	background-color: black;
+	
+}
+
+#contenedor{
+	width: 400px;
+	margin: auto;
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.btn{
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 16px;
+	color: white;
+	float: left;
+	margin: 10px;
+	margin-left: 70px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+h1{
+	font-family: "Fasthand", serif;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+p{
+	overflow-y:initial;
+	height: 150px;
+}
+
+.btn:hover{
+	color: black;
+	background-color: white;
+}

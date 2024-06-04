@@ -53,16 +53,47 @@ function mover(){
 
     if( e===0) {
         pelota.style.marginLeft ='400px';
-        pelota.style.backgroundColor ='yellow';
-        pelota.style.transitionDuration ='.5s';
+        pelota.style.backgroundColor ='#E32636';
+        pelota.style.transitionDuration ='.1s';
         e=1;
     }else {
+        console.log(e);
         pelota.style.marginLeft ='0px';
-        pelota.style.backgroundColor ='gray';
-        pelota.style.transitionDuration ='.5s';
+        pelota.style.backgroundColor ='#2e2e2e';
+        pelota.style.transitionDuration ='.1s';
         e=0;
     }
 
 }
 
 btnMover.addEventListener('click', mover)
+
+
+// CAMBIAR IMAGEN
+
+const pantallaImg = document.querySelector('#miImagen');
+const btnCambiar = document.querySelector('#btnCambiar');
+
+
+let esatado = 0;
+
+ /* function cambiarImagen(){
+    pantallaImg.setAttribute('src', 'imagen2.jpg')
+
+} */
+ 
+function cambiarImagen(){
+
+    if( e===0) {
+        pantallaImg.setAttribute('src', 'imagen2.jpg')
+        e=1;
+    }else {
+        pantallaImg.setAttribute('src', 'imagen.png')
+        e=0;
+    }
+
+
+ }
+
+
+btnCambiar.addEventListener('click', cambiarImagen)
