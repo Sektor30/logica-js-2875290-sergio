@@ -40,12 +40,46 @@ function cerrar (){
     flotante.style.transitionDuration = '.5s';
 }
 
+
+const lista = [
+    'img1.jpg',
+    'img2.jpg'
+]
+
+let estate = 0;
+
+function showImage(index) {
+    estate = index;
+    imgPrincipal.setAttribute('src', lista[estate]);
+}
+
+function adv() {
+        estate = (estate + 1 ) % lista.length;
+        showImage(estate);
+        console.log(estate)
+
+}
+
+function prev() {
+    estate = (estate - 1 + lista.length) % lista.length;
+    showImage(estate);
+    console.log(estate)
+
+}
+
+
+
+
+
 // eventos
 
 btnNumeros[0].addEventListener('click', lightbox)
 btnNumeros[1].addEventListener('click', lightbox)
 equis.addEventListener('click', cerrar);
 cuadroOpacidad.addEventListener('click', cerrar)
+
+btnSiguiente.addEventListener('click', adv )
+btnAnterior.addEventListener('click', prev )
 
 
 //PARA EL VIERNES REALIZAR CAMBIOS DE LAS FLECHAS
