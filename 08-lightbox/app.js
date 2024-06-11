@@ -40,13 +40,15 @@ function cerrar (){
     flotante.style.transitionDuration = '.5s';
 }
 
-
+/*
 const lista = [
     'img1.jpg',
-    'img2.jpg'
+    'img2.jpg',
+    'https://github.com/Sektor30/logica-js-2875290-sergio/blob/main/07-Galerias/Galeria_5/img2.jpg?raw=true',
+
 ]
 
-let estate = 0;
+ let estate = 0;
 
 function showImage(index) {
     estate = index;
@@ -56,7 +58,8 @@ function showImage(index) {
 function adv() {
         estate = (estate + 1 ) % lista.length;
         showImage(estate);
-        console.log(estate)
+        console.log(estate);
+        btnAnterior.disable = false;
 
 }
 
@@ -65,9 +68,18 @@ function prev() {
     showImage(estate);
     console.log(estate)
 
-}
+} */
 
 
+    function siguiente() {
+        imgPrincipal.src="img2.jpg"
+        imgPrincipal.setAttribute('src', "img2.jpg")
+
+    }
+
+    function anterior (){
+        imgPrincipal.src ="img1.jpg"
+    }
 
 
 
@@ -78,8 +90,8 @@ btnNumeros[1].addEventListener('click', lightbox)
 equis.addEventListener('click', cerrar);
 cuadroOpacidad.addEventListener('click', cerrar)
 
-btnSiguiente.addEventListener('click', adv )
-btnAnterior.addEventListener('click', prev )
+btnSiguiente.addEventListener('click', siguiente )
+btnAnterior.addEventListener('click', anterior )
 
 
 //PARA EL VIERNES REALIZAR CAMBIOS DE LAS FLECHAS
