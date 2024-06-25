@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--RESET STYLES-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!--STYLES GENERAL PAGE-->
+    <link rel="stylesheet" href="./css/stylesGen.css">
+    <!--FONTS GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--SWIPER JS - CARROUSUEL-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>    
+    
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!--AOS STYLE-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+        <title>portafolio-diseños</title>
+    
+        <style>
+    #fath{
+		margin: auto;
+		width: 405px;
+	
+	}
+
+	.min{
+		cursor: pointer;
+	}
+
+	#flotante{
+		position: absolute;
+		width: 100%;
+		height: 200%;
+		z-index: 2;
+		/*display: none;*/
+		top:-450%;
+	}
+
+	#cuadro{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: #2e2e2e;
+		opacity: .9;
+	}
+
+	#main{
+		position: relative;
+		width: 415px;
+		height: 320px;
+		/*background: yellow;*/
+		left: 0;
+		right: 0;
+		top:50%;
+		bottom: 0;
+		margin: -160px auto ;
+	}
+
+	#equis{
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		background: lightgray; 
+		border-radius: 50%;
+		text-align: center;
+		line-height: 30px;
+		z-index: 2;
+		right: -10px;
+		top: -5px;
+		cursor: pointer;
+		transition-duration: .5s;	
+	}
+
+	#equis:hover{
+		background: gray;
+
+	}
+
+	#sig, #ant{
+		position: absolute;
+		width: 30px;
+		height: 60px;
+		background: lightgray; 
+		text-align: center;
+		line-height: 60px;
+		z-index: 2;	
+		transition-duration: .5s;
+	}
+
+	#sig{
+		right: -10px;
+		margin-top: -30px;
+		top: 50%;
+		cursor: pointer;
+	}
+
+	#sig:hover{
+		background: gray;
+
+	}
+
+	#ant{
+		left: -10px;
+		margin-top: -30px;
+		top: 50%;
+		cursor: pointer;
+	}
+
+	#ant:hover{
+		background: gray;
+
+	}
+
+	#flotante .mainimg{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top:0;
+		bottom: 0;
+		margin: auto;
+		border: 6px solid white;
+
+	}
+        
+
+   </style>
+
+</head>
+    <body>
+
+        <header>
+            
+            <nav>
+                <section class="contenedor nav" >
+                    <div class="logo">
+                        <a href="#"> <img src="./recursos/img/logovoxel.png" alt="logo-footer" >
+                         </a>
+                         </div>
+    
+                <div class="enlaces-header" >
+               
+                    <a href="#container2">Acerca</a>
+                    <a href="#contenedorImagen">Proyectos</a>
+                    <a href="#informacion-redes">Avances</a>
+                    <a href="#partFooter">Contacto</a>
+                    
+                  </div>
+    
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+        </section>
+        </nav>
+
+        </header>
+
+
+        <main>
+                <div class="container-uno content">
+                    <div class="ejemplo-video">
+                    
+                        <video src="./recursos/vid/reel2020.mp4" autoplay muted playsinline loop type="video/mp4"
+                        src="./recursos/vid/reel2020.wav" autoplay muted playsinline loop type="video/wmv" 
+                        source src="./recursos/vid/reel2020 (1).ogv" autoplay muted playsinline loop type="video/ogv"> 
+                        reproduccion en curso
+                        </video>
+                        
+                    </div>
+                    
+                    
+                    <div class="overlay"> </div>
+                            
+                                <div class="container-flex">
+
+                                    <div class="contenido-escrito">
+                                        <h1 class="items">Animación Digital</h1>
+                                
+                                        <h1 class="items">producción Audiovisual</h1>
+                                        <h1 class="items">Diseño digital</h1>
+
+                                        <h1 class="items">ilustración</h1>
+                                    </div>
+                                
+                                        <div class="boton">
+                                                
+                                                <!--<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p> -->
+                                                <div class="img-promocional">
+                                                <img src="./recursos/img/imagen-base01.jpg" class="img-base"
+                                                alt="imagen-seccion-inicio" style="border-radius: 50%;">
+                                                </div>
+                                                <a href="#contenedorImagen"  class="btn1">Descubre</a>
+                                        </div>
+                                </div>
+                            </div>
+                        
+                </div>
+   
+<!--SWIMPER-->
+
+<!-- <div class="quarter" id="quarter"> 
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <a href=""><img src="./recursos/icons/LOGO VECTOR1 .png" alt=""  class="imgtohover"></a> </div>
+      <div class="swiper-slide">  <a href=""> <img src="./recursos/img/001.jpg" alt="" class="imgtohover"> </a>  </div>
+      <div class="swiper-slide"> <a href=""> <img src="./recursos/img/002.jpg" alt="" class="imgtohover"></a> </div>
+      <div class="swiper-slide"><img src="./recursos/img/003.jpg" alt="" class="imgtohover"></a> </div>
+      <div class="swiper-slide"><img src="./recursos/img/007.png" alt=""></div>
+      <div class="swiper-slide"><img src="./recursos/img/005.jpg" alt=""></div>
+      <div class="swiper-slide"><img src= "./recursos/img/004.png" alt=""></div>
+      <div class="swiper-slide"><img src= "./recursos/img/006.png" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+</div> -->
+
+<div class="contenedorImagen" id="contenedorImagen">
+    <a href="https://lucid.app/lucidspark/4c267694-5f32-4d16-82c8-a96246ebe4d8/edit?viewport_loc=-1328%2C-740%2C5432%2C2632%2C0_0&invitationId=inv_b7ae34b1-a8ac-4a14-9e83-dd12d245cab2" target="_blank"> 
+    <img src="./recursos/img/imagen-diagrama.svg" class="infoImagen"  >
+    </a>
+</div>
+
+
+
+<!-- LIGTHBOX  -->
+
+<div id="flotante">
+	<div id="cuadro" ></div>
+	<div id="main">
+		<div id="equis">X</div>
+		<div id="sig" >&gt;</div>
+		<div id="ant" >&lt;</div>
+		<img id="imgprincipal" class="mainimg" src="img1.jpg">
+	</div>
+</div>
+
+<div id="fath">
+	<img class="min" src="https://github.com/Sektor30/logica-js-2875290/blob/main/08-lightbox/img1.jpg?raw=true" width="200px">
+	<img class="min" src="https://github.com/Sektor30/logica-js-2875290/blob/main/08-lightbox/img2.jpg?raw=true" width="200px">
+	<!-- <img class="min" src="https://github.com/Sektor30/logica-js-2875290-sergio/blob/main/07-Galerias/Galeria_5/img2.jpg?raw=true" style="visibility: hidden;" width="200px">
+ -->
+</div>
+
+
+
+
+               <!--  <section class="container2" id="container2">
+                    <h3 class="tituloZurdo"><strong> </strong></h3>
+                    <div class="contenido-opciones">
+                        <div class="laterales-parrafo">
+                            <div class="items-par"><p>¡Si lo imaginas es posible!
+                            </p>
+                        <p> Diseñamos mundos posibles llenos de creatividad e ingenio. 
+                            Somos un equipo multidisciplinar que te acompañará en tus proyectos.
+                        </p>
+                        </div> 
+                           
+                            </div>
+                
+                        <img src="./recursos/img/imagen-base03.jpg" class="mapa" style="border-radius: 20%;" >
+                    </div>
+                            
+                </section> -->
+                    
+
+
+
+                
+
+                <!--ul>li*5>a[href="#"]{Elemento $}-->
+                        
+
+                
+
+            </main>
+
+            
+                <footer>
+                    <div class="partFooter" id="partFooter">
+                      <img src="./recursos/img/logovoxel.png" alt="logo"  >
+                    </div>
+                    <div class="partFooter">
+                      <h4>Servicios</h4>
+                      <a href="#">Diseño</a>
+                      <a href="#">Desarrollo</a>
+                      <a href="#">Publicidad y Marketing</a>
+                    </div>
+                    <div class="partFooter">
+                      <h4>Acerca de</h4>
+                      <a href="#">Nosotros</a>
+                      <a href="#">Aliados </a>
+                      <a href="#">ofertas</a>
+                    </div>
+                    <div class="partFooter">
+                      <h4>Redes Sociales</h4>
+                      <div class="social-media">
+                        <a href="https://www.facebook.com/casapiedraenelcamino"><i class="fab fa-facebook"></i> </a>
+                        
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i> </a>
+                        
+                        <a href="https://www.instagram.com/casapiedraenelcamino"><i class="fab fa-instagram"></i></a>
+                        
+                        <a href="https://www.youtube.com/@casapiedraenelcamino9144/videos"><i class="fab fa-youtube"></i></a>
+                                  
+                      </div>
+                    </div>
+          
+                </footer>
+    
+
+
+<script src="app.js"></script>
+
+            </body>
+
+            <script src="./js/scroll.js"></script>
+
+            <script src="./js/swiper.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+                <script src="./js/main.js"></script>
+                
+                
+
+                <!--fontawsome-->
+                <script src="https://kit.fontawesome.com/fb3a7dfea7.js" crossorigin="anonymous"></script>
+
+            <!--AOS -->
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+    
+
+
+</html>
