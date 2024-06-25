@@ -74,12 +74,8 @@ btnMover.addEventListener('click', mover)
 const pantallaImg = document.querySelector('#miImagen');
 const btnCambiar = document.querySelector('#btnCambiar');
 
-<<<<<<< HEAD
 
 let esatado = 0;
-=======
-let estado = 0;
->>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d
 
  /* function cambiarImagen(){
     pantallaImg.setAttribute('src', 'imagen2.jpg')
@@ -88,30 +84,16 @@ let estado = 0;
  
 function cambiarImagen(){
 
-<<<<<<< HEAD
     if( e===0) {
         pantallaImg.setAttribute('src', 'imagen2.jpg')
         e=1;
     }else {
         pantallaImg.setAttribute('src', 'imagen.png')
         e=0;
-=======
-    if( estado===0) {
-        pantallaImg.setAttribute('src', 'imagen2.jpg')
-        estado=1;
-    }else {
-        pantallaImg.setAttribute('src', 'imagen.png')
-        estado=0;
->>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d
     }
 
 
  }
 
 
-<<<<<<< HEAD
 btnCambiar.addEventListener('click', cambiarImagen)
-=======
-btnCambiar.addEventListener('click', cambiarImagen)
-
->>>>>>> 54ae59fafc9c0b6426ce89141057701bbef3374d

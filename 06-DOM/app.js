@@ -12,7 +12,7 @@ miBtn.addEventListener('click', function (){
         
 })
 
-/* const numero = document.getElementById('valor');
+const numero = document.getElementById('valor');
 const uno = document.getElementById('uno');
 const tres = document.getElementById('tres');
 
@@ -34,4 +34,7 @@ function disminuir() {
 uno.addEventListener('click', incrementar);
 tres.addEventListener('click', disminuir);
 
-*/
+
+
+
+
