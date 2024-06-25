@@ -11,8 +11,12 @@ miBtn.addEventListener('click', function (){
     pantalla.innerText = "EJECUTANDO SCRIPT ☠️";
         
 })
+<<<<<<< HEAD
 
 const numero = document.getElementById('valor');
+=======
+ const numero = document.getElementById('valor');
+>>>>>>> 0c7a476616de370b02707095031933fad1ce6adb
 const uno = document.getElementById('uno');
 const tres = document.getElementById('tres');
 
@@ -34,7 +38,10 @@ function disminuir() {
 uno.addEventListener('click', incrementar);
 tres.addEventListener('click', disminuir);
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 0c7a476616de370b02707095031933fad1ce6adb
