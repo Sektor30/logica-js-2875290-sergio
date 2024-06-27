@@ -1,18 +1,16 @@
 
+/* const pantalla = document.getElementsByTagName("img") [0]; */
 
-
-var parrafo = document.getElementsByTagName("p")[0];
-
-var pantalla = document.getElementsByTagName("img") [0];
-
-var miniaturas = document.getElementsByClassName("miniatura");
+/* const parrafo = document.getElementsByTagName("p")[0]; */
+const pantalla = document.getElementsByClassName("imagenMario") [0] ;
+const miniaturas = document.getElementsByClassName("miniatura");
 
 function cambiar (){
     var atributo = this.getAttribute("src");
 
     var titulo = this.getAttribute("name");
 
-    parrafo.innerHTML = titulo;
+   /*  parrafo.innerHTML = titulo; */
 
     pantalla.setAttribute("src", atributo)
 
