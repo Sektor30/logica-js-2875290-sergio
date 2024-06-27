@@ -25,9 +25,9 @@ function cerrar (){
 
 
 const lista = [
-    'https://github.com/Sektor30/logica-js-2875290/blob/main/08-lightbox/img1.jpg?raw=true',
-    'https://github.com/Sektor30/logica-js-2875290/blob/main/08-lightbox/img2.jpg?raw=true',
-    'https://github.com/Sektor30/logica-js-2875290-sergio/blob/main/07-Galerias/Galeria_5/img2.jpg?raw=true',
+    './recursos/img/Frame001.png',
+    './recursos/img/frame002.jpg',
+    './recursos/img/frame003.jpg',
 
 ]
 
@@ -35,6 +35,7 @@ let estate = 0;
 
 function showImage(estate) {
     imgPrincipal.setAttribute('src', lista[estate]);
+    imgPrincipal.style.width="100%";
 }
 
 function adv() {
