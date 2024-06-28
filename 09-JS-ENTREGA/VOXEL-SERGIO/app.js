@@ -12,6 +12,7 @@ function lightbox (e){
     //console.log(e.target.src);
     let currentImg = e.target.src
     flotante.style.top = '0vh';
+    flotante.style.height = "2500px" 
     flotante.style.transitionDuration = '.5s';
     imgPrincipal.setAttribute('src', currentImg)
 
@@ -19,8 +20,11 @@ function lightbox (e){
 
 
 function cerrar (){
-    flotante.style.top = '-450vh';
+    flotante.style.top = '-300vh';
     flotante.style.transitionDuration = '.5s';
+ 
+    
+    
 }
 
 
@@ -36,6 +40,8 @@ let estate = 0;
 function showImage(estate) {
     imgPrincipal.setAttribute('src', lista[estate]);
     imgPrincipal.style.width="100%";
+  
+
 }
 
 function adv() {
