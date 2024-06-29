@@ -20,7 +20,7 @@ function lightbox (e){
 
 
 function cerrar (){
-    flotante.style.top = '-300vh';
+    flotante.style.top = '-400vh';
     flotante.style.transitionDuration = '.5s';
  
     

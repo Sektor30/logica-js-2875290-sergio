@@ -59,7 +59,6 @@ nav{
   width: 100%;
   height: 100px;
   background: rgb(39, 20, 134);
-  
   position: fixed ;
   /* TOP Y Z INDEX PARA FIJAR LA NAV EN HEADER*/ 
   top: 0;
@@ -73,7 +72,7 @@ nav{
 .nav{
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 120px;
   width: 100%;
   align-items: center ;
   padding: 0 40px;
@@ -90,7 +89,7 @@ nav{
 
 .nav .logo img{
   height: 85px;
-  margin: 10px;
+  
   
  
 }
@@ -270,8 +269,14 @@ animation:backwards  mimove 3s;
 .boton{
   padding: auto ;
   display: block;
-  width: 80%;
+  width: 100%;
+  
 }
+
+x .img-base{
+  border: 2px solid green;
+}
+
 
 
 .container-uno P{
@@ -291,13 +296,14 @@ animation:backwards  mimove 3s;
   text-decoration: none;
   margin-top: 50% ;
   border-radius: 10px;
-  
+    
 }
 
 .boton >a:hover{
 background: #c31432;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -308,6 +314,7 @@ background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, F
   display: block;
   text-align: center;
   margin-bottom: 15%;
+  
 }
 
 
@@ -551,6 +558,7 @@ ul .items {
 .contenedorImagen{
   justify-content: center;
   margin: auto;
+  padding-bottom: 40px;
   width: 80%;
   
  
