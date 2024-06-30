@@ -33,7 +33,11 @@ const lista = [
     './recursos/img/frame002.jpg',
     './recursos/img/frame003.jpg',
     './recursos/img/frame004.jpg',
-    './recursos/img/frame005.jpg'
+    './recursos/img/frame005.jpg',
+    './recursos/img/fram006.jpg',
+    './recursos/img/frame007.jpg',
+    './recursos/img/frame008.jpg'
+
 
 ]
 

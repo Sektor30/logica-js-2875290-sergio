@@ -273,12 +273,6 @@ animation:backwards  mimove 3s;
   
 }
 
-x .img-base{
-  border: 2px solid green;
-}
-
-
-
 .container-uno P{
   font-size: 1.5rem; 
   color: gray;
@@ -549,7 +543,7 @@ ul .items {
 .infoImagen{
   
   width: 100%;
-  margin: 500px 0px 20px 0px;
+  margin: 200px 0px 20px 0px;
   align-items: center; 
   border-radius: 40px;
   background-color: rgba(128, 128, 128, 0.308);
