@@ -32,6 +32,7 @@ const lista = [
     './recursos/img/Frame001.png',
     './recursos/img/frame002.jpg',
     './recursos/img/frame003.jpg',
+    './recursos/img/frame004.jpg'
 
 ]
 
@@ -64,6 +65,7 @@ function prev() {
 
 btnNumeros[0].addEventListener('click', lightbox)
 btnNumeros[1].addEventListener('click', lightbox)
+
 equis.addEventListener('click', cerrar);
 cuadroOpacidad.addEventListener('click', cerrar)
 
