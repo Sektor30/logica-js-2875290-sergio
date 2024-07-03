@@ -16,7 +16,7 @@ function lightbox (e){
     let currentImg = e.target.src
     flotante.style.top = '0vh';
     flotante.style.transitionDuration = '.5s';
-    imgPrincipal.setAttribute('src', './recursos/img/frame008.png')
+    imgPrincipal.setAttribute('src', './recursos/img/frame009.png')
 
 } 
 
@@ -34,3 +34,33 @@ cuadroOpacidad.addEventListener('click', cerrar)
 
 
 
+/* BOTON DE REGISTRO */
+
+const mibotondos = document.getElementById('btndos');
+const flotantedos = document.querySelector('#flotantedos');
+const cuadroOpacidaddos =document.querySelector('#cuadrodos');
+const equisdos =document.querySelector('#equisdos');
+const imgPrincipaldos =document.querySelector('#imgprincipaldos');
+
+
+
+function lightboxdos(e){
+    //console.log(e.target.src);
+    let currentImg = e.target.src
+    flotantedos.style.top = '0vh';
+    flotantedos.style.transitionDuration = '.5s';
+    imgPrincipaldos.setAttribute('src', './recursos/img/frame008.png')
+
+} 
+
+function cerrardos (){
+    flotantedos.style.top = '-100vh';
+    flotantedos.style.transitionDuration = '.5s';
+}
+
+
+// eventos
+
+mibotondos.addEventListener('click', lightboxdos)
+equisdos.addEventListener('click', cerrardos);
+cuadroOpacidaddos.addEventListener('click', cerrardos)

@@ -12,11 +12,14 @@
             margin: auto;
             width: 405px;
             padding: 40px 0;
+            
         }
         
         #btn{
             font-size: 35px;
             padding: 20px 5px;
+            border-radius: 20px 20px;
+
         }
 
         .min{
@@ -118,4 +121,120 @@
     
         }
     
+
+
+
+       /* BOTON DE REGISTRO  */
+
+        #fathdos{
+            margin: auto;
+            width: 405px;
+            padding: 40px 0;
+            border-radius:20px 20px;
+        }
+        
+        #btndos{
+            font-size: 35px;
+            padding: 20px 5px;
+            border-radius: 20px 20px;
+        }
+
+        .mindos{
+            cursor: pointer;
+        }
+    
+        #flotantedos{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: 2;
+            /*display: none;*/
+            top:-100vh;
+        }
+    
+        #cuadrodos{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            background: #2e2e2e;
+            opacity: .9;
+        }
+    
+        #maindos{
+            position: relative;
+            width: 415px;
+            height: 320px;
+            /*background: yellow;*/
+            left: 0;
+            right: 0;
+            top:50%;
+            bottom: 0;
+            margin: -160px auto ;
+        }
+    
+        #equisdos{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: lightgray; 
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            z-index: 2;
+            right: -10px;
+            top: -170px;
+            cursor: pointer;
+            transition-duration: .5s;	
+        }
+    
+        #equisdos:hover{
+            background: gray;
+    
+        }
+    
+        #sigdos, #antdos{
+            position: absolute;
+            width: 30px;
+            height: 60px;
+            background: lightgray; 
+            text-align: center;
+            line-height: 60px;
+            z-index: 2;	
+            transition-duration: .5s;
+        }
+    
+        #sigdos{
+            right: -10px;
+            margin-top: -30px;
+            top: 50%;
+            cursor: pointer;
+        }
+    
+        #sigdos:hover{
+            background: gray;
+    
+        }
+    
+        #antdos{
+            left: -10px;
+            margin-top: -30px;
+            top: 50%;
+            cursor: pointer;
+        }
+    
+        #ant:hoverdos{
+            background: gray;
+    
+        }
+    
+        #flotantedos .mainimgdos{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            border: 6px solid white;
+    
+        }
    
