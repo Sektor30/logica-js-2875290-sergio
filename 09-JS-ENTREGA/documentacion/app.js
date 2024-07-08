@@ -64,3 +64,18 @@ function cerrardos (){
 mibotondos.addEventListener('click', lightboxdos)
 equisdos.addEventListener('click', cerrardos);
 cuadroOpacidaddos.addEventListener('click', cerrardos)
+
+
+
+
+<!-- BUSQUEDA BUTTON  -->
+
+const busqueda = document.getElementById('boton'); 
+busqueda.addEventListener('click', lightboxdos)
+/* function search() {
+    var query = document.getElementById("searchInput").value;
+    var url = "https://www.google.com" + "-" + encodeURIComponent(query);
+    window.location.href = url;
+  console.log('info')
+
+} */
